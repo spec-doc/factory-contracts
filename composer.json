@@ -1,0 +1,28 @@
+{
+    "name": "spec-doc/factory-contracts",
+    "type": "library",
+    "description": "A set of interfaces for the token factory",
+    "license": "MIT",
+    "keywords": ["abstractions", "contracts", "interfaces", "token", "factory"],
+    "homepage": "https://github.com/spec-doc",
+    "support": {
+        "issues": "https://github.com/spec-doc/specificator/issues",
+        "source": "https://github.com/spec-doc/factory-contracts"
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecDoc\\Specificator\\Contracts\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
